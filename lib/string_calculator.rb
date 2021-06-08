@@ -1,3 +1,3 @@
 def string_calculator(string)
-    0
+    !string.empty? ? string.to_i : 0
 end

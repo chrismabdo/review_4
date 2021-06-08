@@ -23,6 +23,8 @@ string calculator
 
 input | output
 
+string_calculator("") | 0
+string_calculator("1") | 1
 string_calculator("1 + 1") | 2
 string_calculator("3 + 1 + 2") | 6
 string_calculator("-1 + 1") | 0
